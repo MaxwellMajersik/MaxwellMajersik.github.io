@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: LightBlue;
+  background-image: url("celtic-knot.png");
 }
 h1 {
   color: black;
