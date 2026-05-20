@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: powderblue;
+  background-color: LightBlue;
 }
 h1 {
-  color: red;
+  color: black;
   text-align: center;
 }
 p {
-  color: red;
+  color: black;
 }
