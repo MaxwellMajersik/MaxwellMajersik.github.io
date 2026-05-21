@@ -3,17 +3,22 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: LightBlue;
+  background-color: rgb(196,196,196);
 }
 .Title {
   color: black;
   text-align: center;
   font-size: 150%;
 }
+hr {
+  width: 3px;
+  border-width: 0px;
+  background-color: black;
+}
 .Education {
   display: flex;
   justify-content: space-between;
-  background-color: green;
+  background-color: rgb(255,95,95);
 }
     .Education div {
         background-color: #f1f1f1;
@@ -24,7 +29,7 @@ body {
 .Professional-Experience {
   display: flex;
   justify-content: space-between;
-  background-color: tan;
+  background-color: rgb(255,95,95);
 }
     .Professional-Experience div {
         background-color: #f1f1f1;
@@ -35,7 +40,7 @@ body {
 .Non-Academic-Experience {
   display: flex;
   justify-content: space-between;
-  background-color: blue;
+  background-color: rgb(255,95,95);
 }
     .Non-Academic-Experience div {
         background-color: #f1f1f1;
@@ -46,7 +51,7 @@ body {
 .Awards {
   display: flex;
   justify-content: space-between;
-  background-color: blue;
+  background-color: rgb(255,95,95);
 }
 
     .Awards div {
@@ -58,7 +63,7 @@ body {
 .Skills {
   display: flex;
   justify-content: space-between;
-  background-color: blue;
+  background-color: rgb(255,95,95);
 }
     .Skills div {
         background-color: #f1f1f1;
