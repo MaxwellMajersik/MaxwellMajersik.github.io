@@ -15,10 +15,15 @@ hr {
   border-width: 0px;
   background-color: black;
 }
+.About-Me {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255,0,0,0.60);
+}
 .Education {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255,95,95);
+  background-color: rgba(255,0,0,0.60));
 }
     .Education div {
         background-color: #f1f1f1;
@@ -29,7 +34,7 @@ hr {
 .Professional-Experience {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255,95,95);
+  background-color: rgba(255,0,0,0.60);
 }
     .Professional-Experience div {
         background-color: #f1f1f1;
@@ -40,7 +45,7 @@ hr {
 .Non-Academic-Experience {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255,95,95);
+  background-color: rgba(255,0,0,0.60);
 }
     .Non-Academic-Experience div {
         background-color: #f1f1f1;
@@ -51,7 +56,7 @@ hr {
 .Awards {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255,95,95);
+  background-color: rgba(255,0,0,0.60);
 }
 
     .Awards div {
@@ -63,7 +68,7 @@ hr {
 .Skills {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255,95,95);
+  background-color: rgba(255,0,0,0.60);
 }
     .Skills div {
         background-color: #f1f1f1;
