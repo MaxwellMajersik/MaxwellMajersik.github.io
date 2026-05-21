@@ -3,21 +3,24 @@
 
 @import "{{ site.theme }}";
 body {
-  background-image: url("celtic-knot.png");
+  background-color: LightBlue;
 }
-h1 {
+.Title {
   color: black;
   text-align: center;
 }
-p {
-  color: black;
+.Professional-Experiences {
+  display: flex;
+  justify-content: space-between;
+  gap: 40;
+  padding: 40;
 }
-.div1 {
-  background-color: rgb(71,120,255);
-  h1 {
-    text-align: center
-  }
-  p {
-    text-align: center
-  }
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex: 2;
+  border-radius: 10;
 }
