@@ -72,3 +72,15 @@ body {
 .image {
   flex: 1;
 }
+
+@media (max-width: 768px) {
+
+  .Education,
+  .Professional-Experience,
+  .Non-Academic-Experience,
+  .Awards,
+  .Skills {
+      flex-direction: column;
+  }
+
+}
