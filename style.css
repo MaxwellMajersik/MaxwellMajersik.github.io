@@ -12,8 +12,8 @@ body {
 .Professional-Experience {
   display: flex;
   justify-content: space-between;
-  gap: 40;
-  padding: 40;
+  gap: 40px;
+  padding: 40px;
 }
 
 .text {
