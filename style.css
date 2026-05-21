@@ -8,15 +8,22 @@ body {
 .Title {
   color: black;
   text-align: center;
+  font-size: 150%;
 }
 .Professional-Experience {
   display: flex;
   justify-content: space-between;
   background-color: tan;
 }
-.Professional-Experience div {
-    background-color: #f1f1f1;
-    width: 500px;
-    margin: 30px;
-    padding: 20px;
-}
+    .Professional-Experience div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 30px;
+        padding: 20px;
+    }
+        .text {
+          flex: 2;
+        }
+        .image {
+          flex: 1;
+        }
