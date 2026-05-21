@@ -10,6 +10,16 @@ body {
   text-align: center;
   font-size: 150%;
 }
+.Education {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+    .Education div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 30px;
+        padding: 20px;
 .Professional-Experience {
   display: flex;
   justify-content: space-between;
@@ -21,9 +31,43 @@ body {
         margin: 30px;
         padding: 20px;
     }
-        .text {
-          flex: 2;
-        }
-        .image {
-          flex: 1;
-        }
+.Non-Academic-Experience {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+    .Non-Academic-Experience div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 30px;
+        padding: 20px;
+    }
+.Awards {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+    .Awards div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 30px;
+        padding: 20px;
+    }
+.Skills {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+    .Skills div {
+        background-color: #f1f1f1;
+        width: 500px;
+        margin: 30px;
+        padding: 20px;
+    }
+.text {
+  flex: 2;
+}
+.image {
+  flex: 1;
+}
