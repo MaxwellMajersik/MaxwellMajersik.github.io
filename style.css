@@ -15,6 +15,9 @@ hr {
   border-width: 0px;
   background-color: black;
 }
+p {
+    font-size: large
+}
 .About-Me {
   display: flex;
   justify-content: space-between;
@@ -29,7 +32,7 @@ hr {
 .Education {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(255,0,0,0.60));
+  background-color: rgba(255,0,0,0.60);
 }
     .Education div {
         background-color: #f1f1f1;
@@ -47,6 +50,9 @@ hr {
         width: 500px;
         margin: 30px;
         padding: 20px;
+    }
+    .Professional-Experience image {
+        width: 100%
     }
 .Non-Academic-Experience {
   display: flex;
