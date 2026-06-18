@@ -1,14 +1,26 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+
 body {
-  background-color: rgb(196,196,196);
+  background-color: #ffffff;
+
 }
 .Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: black;
   text-align: center;
   font-size: 150%;
+  background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
+}
+.Title div {
+        background-color: #dcdcdc;
+        width: 90%;
+        margin: 30px;
+        padding: 20px;  
 }
 hr {
   width: 3px;
@@ -18,13 +30,16 @@ hr {
 p {
     font-size: large
 }
+
 .About-Me {
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
 }
 .About-Me div {
-        background-color: #f1f1f1;
+        line-height: 1.5;
+        background-color: #dcdcdc;
         width: 500px;
         margin: 30px;
         padding: 20px;
@@ -33,9 +48,11 @@ p {
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
 }
     .Education div {
-        background-color: #f1f1f1;
+        line-height: 0.8;
+        background-color: #dcdcdc;
         width: 500px;
         margin: 30px;
         padding: 20px;
@@ -44,9 +61,11 @@ p {
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
 }
     .Professional-Experience div {
-        background-color: #f1f1f1;
+        line-height: 1.2;
+        background-color: #dcdcdc;
         width: 500px;
         margin: 30px;
         padding: 20px;
@@ -58,32 +77,23 @@ p {
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
 }
     .Non-Academic-Experience div {
-        background-color: #f1f1f1;
+        background-color: #dcdcdc;
         width: 500px;
         margin: 30px;
         padding: 20px;
     }
-.Awards {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(255,0,0,0.60);
-}
 
-    .Awards div {
-        background-color: #f1f1f1;
-        width: 500px;
-        margin: 30px;
-        padding: 20px;
-    }
 .Skills {
   display: flex;
   justify-content: space-between;
   background-color: rgba(255,0,0,0.60);
+  border-radius: 30px;
 }
     .Skills div {
-        background-color: #f1f1f1;
+        background-color: #dcdcdc;
         width: 500px;
         margin: 30px;
         padding: 20px;
@@ -93,6 +103,7 @@ p {
 }
 .image {
   flex: 1;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
