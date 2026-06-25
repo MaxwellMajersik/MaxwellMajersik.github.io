@@ -1,1 +1,0 @@
-# MaxwellMajersik.github.io
